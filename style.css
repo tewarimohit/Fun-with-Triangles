@@ -1,0 +1,29 @@
+body {
+    
+    margin: auto;
+    max-width: 50%;
+    background-color: chocolate;
+    
+}
+.angle-input {
+    margin-top: 0.5rem;
+    margin-bottom: 1rem;
+    display: block;
+}
+h1 {
+    color: cornsilk;
+}
+button {
+    padding: 0.5rem;
+    font-size: large;
+    border-radius: 0.4rem;
+    
+    border: solid ;
+    border-top-width: thin;
+    border-right-width: thin;
+    
+    
+    color: cornsilk;
+    background-color: chocolate;
+    
+}
