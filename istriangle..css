@@ -1,22 +1,27 @@
+@import url('https://fonts.googleapis.com/css2?family=Oxygen&display=swap');
+body {
+    
+    margin: auto;
+    
+    background-color: chocolate;
+    font-family: 'Oxygen', sans-serif;
+    
+}
 .contain {
-    max-width: 50%;
     text-align: center;
     display: block; 
     margin: auto;
+
     
 }
 
-.quiz-form  {
-
+.angle-input {
     
-    font-size: large;
-   text-align: left;
-  margin: auto;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  font-size: larger;
    
-
-}
-input {
-    margin: 0.5rem;
+    
 }
 
 
@@ -24,7 +29,6 @@ h1 {
     color: chocolate;
 }
 button {
-    margin-top: 2rem;
     padding: 0.5rem;
     font-size: large;
     border-radius: 0.4rem;
@@ -38,8 +42,4 @@ button {
     background-color: cornsilk;
     
 }
-h2 {
-    margin-top: 1rem;
-    color: chocolate;
-    
-}
+

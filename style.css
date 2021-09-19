@@ -1,29 +1,118 @@
+@import url('https://fonts.googleapis.com/css2?family=Oxygen&display=swap');
+
+
 body {
-    
-    margin: auto;
-    max-width: 50%;
-    background-color: chocolate;
-    
+
+    font-family: 'Oxygen', sans-serif;  
+    margin: 0px;
+    background-color: cornsilk;
 }
-.angle-input {
-    margin-top: 0.5rem;
+
+
+hr {
+    margin: 2rem 0rem;
+}
+
+.link {
+    text-decoration: none;
+    padding: 0.5rem 1rem;
+    margin-top: 1rem;
     margin-bottom: 1rem;
-    display: block;
 }
-h1 {
-    color: cornsilk;
+
+
+.list-non-bullet {
+
+    list-style: none;
 }
-button {
-    padding: 0.5rem;
-    font-size: large;
-    border-radius: 0.4rem;
-    
-    border: solid ;
-    border-top-width: thin;
-    border-right-width: thin;
-    
-    
-    color: cornsilk;
+
+.list-item-inline {
+    display: inline;
+    padding: 0rem 0.5rem;
+}
+
+
+
+.navigation {
     background-color: chocolate;
-    
+    color: cornsilk;
+    padding: 1rem;
+    border-bottom-left-radius: 1rem;
+    text-align: right;
 }
+
+.navigation .nav-heading {
+    text-align: left;
+    font-size: xx-large;
+}
+
+.navigation .link {
+
+    color: white;
+    
+
+}
+
+.navigation .nav-brand {
+    font-weight: bold;
+    font-size: 2rem;
+}
+
+.navigation .link-active {
+    font-weight: bold;
+    border-style: solid;
+    border-top: slategrey;
+    border-left: transparent;
+    border-right: transparent;
+}
+
+.container {
+
+    text-align: center;
+ padding: 5.5rem;
+
+
+}
+.main {
+    text-decoration: none;
+    margin: 2rem;
+    border: 3px solid;
+    border-top: transparent;
+    border-left: transparent;
+    border-color: grey;
+    border-radius: 1rem;
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+    background-color: chocolate;
+    color: cornsilk;
+    font-size: larger;
+}
+
+
+
+
+.footer {
+    background-color: chocolate;
+    padding: 2rem 1rem;
+    text-align: center;
+    color: white;
+    border-top-right-radius: 1rem;
+    border-top-left-radius: 1rem;
+}
+
+.footer .link {
+    color: white;
+}
+
+.footer ul {
+    padding-inline-start: 0px;
+}
+
+.footer .footer-header {
+    font-weight: bold;
+    font-size: large;
+
+}
+

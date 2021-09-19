@@ -1,34 +1,28 @@
+
 .contain {
-    max-width: 50%;
     text-align: center;
     display: block; 
     margin: auto;
     
-}
-
-.quiz-form  {
-
     
-    font-size: large;
-   text-align: left;
-  margin: auto;
-   
-
-}
-input {
-    margin: 0.5rem;
 }
 
 
 h1 {
     color: chocolate;
 }
+
+.sides {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    font-size: larger;
+}
 button {
-    margin-top: 2rem;
+    margin-top: 1rem;
     padding: 0.5rem;
     font-size: large;
     border-radius: 0.4rem;
-    
+    margin: 3vh;
     border: solid ;
     border-top-width: thin;
     border-right-width: thin;
@@ -38,8 +32,8 @@ button {
     background-color: cornsilk;
     
 }
-h2 {
+p {
     margin-top: 1rem;
     color: chocolate;
-    
+    font-size: larger;
 }
